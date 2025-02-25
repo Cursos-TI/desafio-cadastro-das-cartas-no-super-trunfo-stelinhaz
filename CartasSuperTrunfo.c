@@ -4,7 +4,7 @@ int main(){
 
 char estado[2];
 char codigo[5], cidade[20];
-int população;
+int populacao;
 float área;
 float pib;
 int pontos;
@@ -24,8 +24,8 @@ scanf("%s", cidade);
 printf("Nome da Cidade: %s\n", cidade);
 
 printf("População: ");
-scanf("%d", &população);
-printf("População: %d\n", população);
+scanf("%d", &populacao);
+printf("População: %d\n", populacao);
 
 printf("Área: ");
 scanf("%f", &área);
@@ -55,8 +55,8 @@ scanf("%s", cidade);
 printf("Nome da Cidade: %s\n", cidade);
 
 printf("População: ");
-scanf("%d", &população);
-printf("População: %d\n", população);
+scanf("%d", &populacao);
+printf("População: %d\n", populacao);
 
 printf("Área: ");
 scanf("%f", &área);
